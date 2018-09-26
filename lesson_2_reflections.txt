@@ -15,6 +15,16 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You first check the git diff to see what have changed, 
+	then you stage the files that form a logical change, 
+	then you check if thats right by git diff --status and 
+	then commit the change.
+
+	Then you repeat the process for each change that has a 
+	logical entity on its own and if the rest you dont want 
+	to commit and want to delete, you just do 
+	git reset --hard
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
