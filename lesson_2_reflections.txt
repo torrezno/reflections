@@ -35,6 +35,11 @@ organized? How would branches help?
 	To go to a branch we use git checkout <branchname>
 
 How do the diagrams help you visualize the branch structure?
+	
+	The diagrams are quite usefull cause you can there see with colors and 
+	special characters the branches you have. You do that by using the command:
+	 git log --graph --oneline master <branch1> <branch2>
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
