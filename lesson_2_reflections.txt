@@ -27,6 +27,12 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	When we want to make changes in the code for a side project or some 
+	experimental feature, but we want to keep the working production code also 
+	to keep fixing bugs and stuff, we will make a new branch with git branch <name>.
+
+	To go to a branch we use git checkout <branchname>
 
 How do the diagrams help you visualize the branch structure?
 
