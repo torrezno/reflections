@@ -37,4 +37,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes in master is easier and faster but there is only 1 version 
+    out there. You branch when you are going to do some work that might take 
+    some time or when you are going to work in a new disruptive feature.
